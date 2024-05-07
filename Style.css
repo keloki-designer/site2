@@ -1,0 +1,335 @@
+body{
+    margin:0px;
+    background-color:#CECCCC;
+}
+p{
+    margin:0px;
+
+}
+html{
+    Font-family: 'Oswald', sans-serif;
+    background-color:#FFFFFF;
+    margin:0px;
+}
+.h_1{
+   color:#082D0F;
+}
+.nav_menu{
+    width:100%;
+    height:220px;
+    background: rgb(16,19,77);
+background: linear-gradient(180deg, rgba(16,19,77,1) 0%, rgba(16,110,128,1) 100%);
+}
+.nav_h1{
+    font-size: 40;
+    color:#FFFFFF;
+    margin-left:20px;
+    transition: 2s;
+    display: inline-block;
+}
+.slogan{
+    font-size: 25;
+
+}
+.menu{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(16,110,128,1);
+    color: #FFFFFF;
+    
+}
+
+.otstup{ 
+    display: inline-block; 
+    background-color:aquamarine;
+    margin-left: 50px;
+    padding: 100px;
+    margin-top: 50px;
+
+}
+
+.second{
+    display: inline-block; 
+    background-color:aquamarine;
+    margin-left: 50px;
+    padding: 100px;
+    margin-top: 50px;
+}
+.third{
+    display: inline-block; 
+    background-color:aquamarine;
+    margin-left: 50px;
+    padding: 100px;
+    margin-top: 50px;
+}
+.kartinks{
+    width: 100%;
+    margin-top: 400px;
+}
+.slovo{
+    margin-left: 50px;
+    font-size: larger;
+    transition: 0.9s;
+}
+.slovo:hover{
+    color: red;
+    transition: 0.9s;
+    size: scale(1.5);
+}
+.mainblock{
+    display: flex;
+    width: 100%;
+}
+.Left_div{
+    width: 50%;
+    text-align: center;
+}
+.Right_div{
+    width: 50%;
+    text-align: center;
+}
+.Banner{
+    width: 170px;
+    height:250px;
+    border-radius: 12px;
+    border: 6px solid rgba(16,110,128,1);
+    margin-left: 5px;
+
+}
+.Text{
+    border-radius: 12px;
+    border: 6px solid rgba(16,110,128,1);
+    font-weight: 900px;
+    font-size: larger;
+    margin-left: 20px;
+    padding: 10px;
+    margin-right: 20px;
+    background-color: rgba(128, 128, 128, 0.329);
+    color: black;
+}
+.zagolovok{
+    color: black;
+}
+.Banner:hover{
+    transform: scale(1.5);
+
+}
+.footer{
+    display: flex;
+    background-color: #106E80;
+    color: azure;
+    padding: 30px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.line{
+    width: 350px;
+}
+.about_us{
+    text-align: left;
+}
+.text_overlay{
+    width: 170px;
+    height:250px;
+    position: absolute;
+    bottom: 260px;
+    background-color: rgba(0, 0, 0, 0.631);
+    color: black;
+    font-size:17px;
+    left: 11px;
+    top: 290px;
+    border-radius: 12px;
+    opacity: 0;
+}
+.text_op{
+    padding: 10px;
+}
+.foto_container{
+    width: 170px;
+}
+.kartinkaa{
+    width: 300px;
+    height: 400px;
+    border: solid 5px rgb(139, 138, 138);
+    border-radius: 10px;
+}
+.kartinka{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.YouTube{
+    border-radius: 10px;
+    border: solid 5px rgb(139, 138, 138);
+    margin-top: 10px;
+}
+.glavniy_div{
+    display: flex;
+}
+.centralniy_div{
+    width: 1000px;
+    margin-left: 70px;
+}
+.obzor{
+    font-size: 20px;
+    font-weight: bold;
+}
+table{
+    text-align: left;
+    margin-top: 10px;
+
+}
+td{
+    width: 250px;
+
+}
+.ocenka{
+    color: green;
+    font-size: 65px;
+    font-weight: bolder;
+    margin-left: 70px;
+}
+.rating{
+    margin-left: 70px;
+}
+.ocenki{
+    margin-left: 70px;
+}
+.role{
+    margin-top: 30px;
+}
+.adres{
+    display: flex;
+    
+}
+.feedback{
+    margin-left: 50px;
+    margin-top: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    height: 200px;
+}
+
+/* CSS */
+.button-85 {
+    padding: 0.6em 2em;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-85:before {
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-button-85 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  @keyframes glowing-button-85 {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+  .button-85:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+  .prevyu{
+    text-align: center;
+    width: 100%;
+  }
+  .mobile{
+    display: none;
+  }
+  @media screen and (max-width: 1000px){
+    .mainblock{
+        display: block;
+    }
+    .Left_div{
+        width: 100%;
+    }
+    .Right_div{
+        width: 100%;
+    }
+    .Banner{
+        width: 20%;
+        height: auto;
+    }
+    .Right_div{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    body{
+        font-size: 12px;
+        width: 100%;
+       
+    }
+    .footer{
+        display: flex;
+        font-size: 50px;
+        width: 100%;
+    }
+    .line{
+        display: none;
+    }
+    .Tm{
+        display: none;
+    }
+    .about_us{
+        margin-bottom: 20px;
+    }
+    .nav_menu{
+        width: 100%;
+    }
+    .menu{
+        width: 100%;
+    }
+    .mobile{
+        display: block;
+    }
+  }
+  
+  
